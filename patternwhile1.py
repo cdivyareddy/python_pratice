@@ -1,0 +1,85 @@
+star=1
+while(star!=6):
+    print(star*'*')
+    star+=1
+star=6
+while(star!=0):
+    print(star*'*')
+    star-=1
+star,space=1,4
+while(star!=6):
+    print(space*'-',star*'*',sep='')
+    star+=1
+    space-=1
+star,space=1,4
+while(star!=9):
+    print(space*'-',star*'*',sep='')
+    star+=2
+    space-=1
+num,count=1,5
+while(num!=6):
+    print(str(num)*count)
+    num+=1
+    count-=1
+space,num,count=4,5,1
+while(num!=0):
+    print(space*'-',str(num)*count,sep='')
+    space-=1
+    num-=1
+    count+=1
+space,star=1,4
+while(star!=0):
+    print(space*'-',star*'*',sep='')
+    space+=1
+    star-=1
+
+space,num,count=4,5,1
+while(num!=0):
+    print(space*'-',str(num)*count,sep='')
+    space-=1
+    num-=1
+    count+=1
+num,count=1,4
+while(num!=5):
+    print(str(num)*count)
+    num+=1
+    count-=1
+space,num,count=1,1,4
+while(num!=5):
+    print(space*'-',str(num)*count,sep='')
+    space+=1
+    num+=1
+    count-=1
+num,count=4,1
+while(num!=0):
+    print(str(num)*count)
+    num-=1
+    count+=1
+space,num,count=3,4,1
+while(num!=0):
+    print(space*'-',str(num)*count,sep='')
+    space-=1
+    num-=1
+    count+=1
+num,count=5,5
+while(num!=0):
+    print(str(num)*count)
+    num-=1
+    count-=1
+num,count=1,1
+while(num!=6):
+    print(str(num)*count)
+    num+=1
+    count+=1
+space,num,count=1,5,5
+while(num!=0):
+    print(space*'-',str(num)*count,sep='')
+    space+=1
+    num-=1
+    count-=1
+space,num,count=4,1,1
+while(num!=6):
+    print(space*'-',str(num)*count,sep='')
+    space-=1
+    num+=1
+    count+=1
